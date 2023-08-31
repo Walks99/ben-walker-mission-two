@@ -1,0 +1,59 @@
+/* ###############################################   MEDIA QUERIES   #################################################### */
+
+@media only screen and (max-width: 500px) {
+  .page_container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    position: relative;
+    top: 150px;
+  }
+
+  .color_heading {
+    margin: 14px 0px 10px 0px;
+  }
+
+  .nav_container {
+    align-self: center;
+    position: relative;
+    top: -50px;
+    left: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin-top: 20px;
+  }
+
+  nav li:hover {
+    transform: scale(1);
+  }
+
+  nav a:hover {
+    text-shadow: 0px 0px 0px black;
+  }
+
+  .topics_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    right: 0;
+  }
+
+  .html_container:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .css-container:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}

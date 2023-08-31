@@ -1,0 +1,104 @@
+@media only screen and (max-width: 500px) {
+  .css_title_of_paragraph {
+    font-size: 38px;
+    margin-top: 25px;
+  }
+
+  .nav_container {
+    position: relative;
+
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    align-items: center;
+  }
+
+  nav li {
+    margin-top: 20px;
+  }
+
+  nav a:hover {
+    text-shadow: 0px 0px 0px;
+  }
+
+  nav li:hover {
+    transform: scale(1);
+  }
+
+  #css_content_container {
+    margin: 10px;
+    padding: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  body {
+    background-color: rgb(135, 300, 235);
+    background-image: none;
+  }
+
+  .view_css_resources_link {
+    display: none;
+  }
+
+  .css_resources {
+    width: 90%;
+    margin: 100px 10px 100px 10px;
+    height: auto;
+  }
+
+  .css_resources h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .css_resources_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* dada */
+
+  .css_resources_links a:hover {
+    transform: scale(1);
+  }
+
+  .stackoverflow-logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .youtube-logo {
+    width: 250px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .mdn-webdocs-logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .github-logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .w3-logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .page_container {
+    align-items: center;
+  }
+
+  .css_resources_links a {
+    margin: 0;
+  }
+}

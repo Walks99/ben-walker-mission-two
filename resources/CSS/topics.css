@@ -1,0 +1,307 @@
+body {
+  background-image: url(../images/background_image_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ########################################################   HEADER   ####################################################### */
+
+.color_heading_container {
+  display: flex;
+  justify-content: center;
+}
+
+.color_heading {
+  font-style: italic;
+  font-family: Aoboshi One;
+  padding: 15px;
+  margin: auto;
+  font-size: 50px;
+  text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+  text-decoration: underline;
+  text-decoration-color: #b0e0e6;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px;
+  animation-name: topics-container-transition;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes topics-container-transition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* COLORS EACH LETTER FOR TITLE */
+
+.first {
+  color: red;
+}
+
+.second {
+  color: green;
+}
+
+.third {
+  color: blue;
+}
+
+.fourth {
+  color: pink;
+}
+
+.fifth {
+  color: purple;
+}
+
+.sixth {
+  color: orange;
+}
+
+/* ###################################################################################################################### */
+
+.page_container {
+  display: flex;
+  flex-direction: column-reverse; /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  align-items: center; /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  justify-content: space-between;
+  /* position: relative;
+  top: 50px; */
+  animation-name: topics-container-transition;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes topics-container-transition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ################################################   TOPICS SECTION   ################################################### */
+
+.topics_container {
+  display: flex;
+  gap: 150px; /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  /* position: relative; */ /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  /* top: -100px; */ /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  /* right: 150px;  */ /*CHANGE ^^^^^^^^^^^^^^^^^^^^^^^^*/
+  margin-top: 100px;
+}
+
+/* ####### changes default color of hyperlinks to black ####### */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HTML CONTAINER */
+
+.html_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 550px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 165, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.html_container:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 14px rgb(255, 0, 255);
+}
+
+.html_container:active {
+  box-shadow: 0px 0px 14px rgb(0, 255, 0);
+  transition: box-shadow 0s;
+}
+
+.html_container h2 {
+  font-size: 60px;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 4px 4px 2px rgb(25, 25, 112);
+  letter-spacing: 8px;
+  margin-bottom: 15px;
+}
+
+.html_container p {
+  margin: 22px 22px 50px 22px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.html_container img {
+  width: 300px;
+  height: auto;
+  margin: 0;
+}
+
+/* CSS CONTAINER */
+
+.css-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 550px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 165, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.css-container:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 14px rgb(0, 255, 0);
+
+}
+
+.css-container:active {
+  box-shadow: 0px 0px 14px rgb(0, 123, 167);
+  transition: box-shadow 0s;
+}
+
+.css-container h2 {
+  font-size: 60px;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 4px 4px 2px rgb(25, 25, 112);
+  letter-spacing: 8px;
+  margin-bottom: 15px;
+}
+
+.css-container p {
+  margin: 22px 22px 50px 22px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.css-container img {
+  width: 300px;
+  height: auto;
+  margin: 0;
+}
+
+/* JavaScript container */
+.javaScript_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 550px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 165, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.javaScript_container:hover {
+  transform: scale(1.04);
+  /* box-shadow: 6px 6px 2px rgb(255, 0, 255); */
+  box-shadow: 0px 0px 14px rgb(255, 255, 0);
+  /* box-shadow: 6px 6px 2px rgb(255, 91, 0); */
+  /* box-shadow: 0px 0px 14px rgb(0, 123, 167); */
+}
+
+.javaScript_container:active {
+  box-shadow: 0px 0px 14px rgb(0, 123, 167);
+  transition: box-shadow 0s;
+}
+
+.javaScript_container h2 {
+  font-size: 60px;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 4px 4px 2px rgb(25, 25, 112);
+  /* letter-spacing: 2px; */
+  margin-bottom: 15px;
+  /* line-height: 0.8; */
+}
+
+.javaScript_container p {
+  margin: 22px 22px 25px 22px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.javaScript_container img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+}
+/* ###################################################################################################################### */
+
+/* ##############################################   HOME NAVIGATION   ################################################### */
+
+.nav_container {
+  align-self: center; /*CHANGE ^^^^^^^^^^^^^^^^^^^*/
+  /* /* position: relative; */
+  /* left: 50px; */
+  margin-top: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+}
+
+nav a {
+  text-decoration: underline;
+  color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  text-shadow: 4px 4px 10px rgb(220, 20, 60, 0.6);
+  transition: text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+
+nav li {
+  transition: transform 0.3s ease;
+  margin: 5px;
+}
+
+nav li:hover {
+  transform: scale(1.05);
+}
+
+nav a:active {
+  text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+  transition: text-shadow 0.1s ease;
+}
+
+/* ###################################################################################################################### */

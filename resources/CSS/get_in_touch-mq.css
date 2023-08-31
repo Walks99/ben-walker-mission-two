@@ -1,0 +1,109 @@
+@media only screen and (max-width: 500px) {
+  .page_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact_container {
+    margin: 20px;
+    padding: 25px 25px 0px 25px;
+    width: 90%;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 165, 0, 0.8);
+    box-shadow: 0px 0px 16px rgb(178, 34, 34);
+    border-radius: 10px;
+  }
+
+  .contact_title {
+    margin-bottom: 35px;
+    font-size: 2rem;
+  }
+
+  input[type="submit"] {
+    background-color: rgb(255, 192, 203);
+    color: white;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    transform: scale(1);
+    background-color: white;
+  }
+
+  input[type="submit"]:active {
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .nav_container {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a:hover {
+    text-shadow: 0px 0px 0px rgba(255, 215, 0, 0.7);
+  }
+
+  nav li:hover {
+    transform: scale(1);
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  input[type="text"] {
+    width: 80%;
+    height: 25px;
+  }
+
+  input[placeholder="Your name"] {
+    text-align: center;
+  }
+
+  input[type="email"] {
+    width: 80%;
+    height: 25px;
+  }
+
+  input[placeholder="Your email"] {
+    text-align: center;
+  }
+
+  input[type="tel"] {
+    width: 80%;
+    height: 25px;
+  }
+
+  input[placeholder="Your telephone"] {
+    text-align: center;
+  }
+
+  textarea[placeholder="Enter your message"] {
+    text-align: center;
+  }
+}

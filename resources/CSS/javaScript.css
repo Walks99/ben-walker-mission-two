@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* change background color classes */
+
+.backgroundPink {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 105, 180, 0.1),
+      rgba(255, 105, 180, 0.3),
+      rgba(255, 105, 180, 0.6),
+      rgba(255, 105, 180, 0.8),
+      rgba(255, 105, 180, 1),
+      rgba(255, 105, 180, 1),
+      rgba(255, 105, 180, 1)
+    ),
+    url(../images/JS-background-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+.backgroundRed {
+  background-image: linear-gradient(
+      to right,
+      rgba(231, 76, 60, 0.1),
+      rgba(231, 76, 60, 0.3),
+      rgba(231, 76, 60, 0.6),
+      rgba(231, 76, 60, 0.8),
+      rgba(231, 76, 60, 1),
+      rgba(231, 76, 60, 1),
+      rgba(231, 76, 60, 1)
+    ),
+    url(../images/JS-background-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+.backgroundLightblue {
+  background-image: linear-gradient(
+      to right,
+      rgba(135, 300, 235, 0.1),
+      rgba(135, 300, 235, 0.3),
+      rgba(135, 300, 235, 0.6),
+      rgba(135, 300, 235, 0.8),
+      rgba(135, 300, 235, 1),
+      rgba(135, 300, 235, 1),
+      rgba(135, 300, 235, 1)
+    ),
+    url(../images/JS-background-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+/* Timer container  */
+
+.timer-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.timer-container input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.timerBtnsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#timerBtn {
+    width: 45%;
+    height: 30px;
+    font-size: 18px;
+}
+
+#resetBtn {
+    width: 45%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.timer-container label {
+    font-size: 22px;
+}
+
+#timerNum {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/* ###################################################   PAGE CONTAINER   ######################################################### */
+
+.page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#javaScript_content_container {
+  margin: 60px 50px 50px 50px;
+  padding: 10px;
+  width: 40%;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+}
+
+.javaScript_title_of_paragraph {
+  font-family: "Aoboshi One";
+  font-style: italic;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 2px 2px 2px rgb(25, 25, 112);
+  font-size: 44px;
+}
+
+.javaScript_paragraph {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  color: rgb(25, 25, 112);
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.view_javaScript_resources_page {
+  align-self: flex-end;
+  font-size: 28px;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: #4b0082;
+  text-shadow: 1px 1px 1px rgb(231, 76, 60);
+  font-family: "Roboto Mono", monospace;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  margin-top: 50px;
+}
+
+.view_javaScript_resources_page:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 2px 10px rgb(255, 255, 0);
+}
+
+.view_javaScript_resources_page:active {
+  text-shadow: 2px 2px 1px rgb(255, 105, 180);
+  transition: text-shadow 0s;
+}
+
+/* HTML resources */
+
+.javaScript_resources {
+  margin: 100px 40px 20px 20px;
+  width: 40%;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+}
+
+.javaScript_resources h2 {
+  font-family: "Aoboshi One";
+  font-style: italic;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 2px 2px 2px rgb(25, 25, 112);
+  font-size: 44px;
+}
+
+#javaScript_resources_page {
+  /* border: 10px solid red; */
+  position: absolute;
+  top: 950px;
+}
+
+.javaScript_resources_links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  gap: 50px;
+}
+
+.javaScript_resources_links a {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.javaScript_resources_links a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.stackoverflow-logo {
+  width: 300px;
+  height: auto;
+}
+
+.youtube-logo {
+  width: 300px;
+  height: auto;
+}
+
+.mdn-webdocs-logo {
+  width: 300px;
+  height: auto;
+}
+
+.github-logo {
+  width: 300px;
+  height: auto;
+}
+
+.w3-logo {
+  width: 150px;
+  height: auto;
+}
+
+/* javaScript Examples Container */
+
+.javaScript-examples-container {
+  margin: 20px 40px 20px 20px;
+  width: 40%;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+}
+
+.javaScript-examples-container h2 {
+  font-family: "Aoboshi One";
+  font-style: italic;
+  font-family: Aoboshi One;
+  color: rgb(220, 20, 60);
+  text-shadow: 2px 2px 2px rgb(25, 25, 112);
+  font-size: 44px;
+}
+
+.javaScript-examples-container p {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  color: rgb(25, 25, 112);
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+#changeBackgroundColorBtn {
+  width: 35%;
+  height: 30px;
+  font-size: 18px;
+}
+
+/* navigation */
+
+.nav_container {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav a {
+  text-decoration: underline;
+  color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  text-shadow: 4px 4px 10px rgb(220, 20, 60, 0.6);
+  transition: text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+
+nav li {
+  transition: transform 0.3s ease;
+  margin: 5px;
+}
+
+nav li:hover {
+  transform: scale(1.05);
+}
+
+nav a:active {
+  text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+  transition: text-shadow 0.1s ease;
+}

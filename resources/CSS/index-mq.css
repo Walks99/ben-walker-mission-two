@@ -1,0 +1,29 @@
+/* #################################################   MEDIA QUERIES FOR index.css  ############################################################# */
+
+@media only screen and (max-width: 500px) {
+  .page_container {
+    top: 10px;
+  }
+
+  .web_title h1 {
+    font-size: 2.5rem;
+  }
+
+  .website_intro_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .web_title p {
+    font-size: 1.2rem;
+  }
+
+  .website_intro_container h2 {
+    font-size: 1.4rem;
+  }
+
+  .view_topics_link:hover {
+    transform: scale(1);
+  }
+}

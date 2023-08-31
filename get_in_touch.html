@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/CSS/get_in_touch.css" />
+    <link rel="stylesheet" href="./resources/CSS/get_in_touch-mq.css" />
+    <title>Get in touch</title>
+  </head>
+
+  <body>
+    <!-- #######################################   PAGE CONTAINER   ###################################################### -->
+
+    <div class="page_container">
+      <!-- Contact container -->
+
+      <div id="contact_container">
+        <h2 class="contact_title">For further info, email me below:</h2>
+
+        <form
+          action="mailto:ben@missionreadyhq.com?subject=Software%20Enquiry"
+          method="post"
+          autocomplete="on"
+          enctype="text/plain"
+        >
+          <fieldset>
+            <label for="">Name:</label
+            ><input
+              type="text"
+              required
+              name="name"
+              placeholder="Your name"
+            /><br />
+            <label for="">Email</label
+            ><input type="email" name="email" placeholder="Your email" /><br />
+            <label for="">Telephone:</label
+            ><input
+              type="tel"
+              name="telephone"
+              placeholder="Your telephone"
+            /><br />
+            <div class="radio_buttons">
+              <input
+                type="radio"
+                name="response option"
+                value="Email response"
+                id="email-response"
+              /><label for="">Email response</label><br />
+              <input
+                type="radio"
+                name="response option"
+                value="Telephone response"
+                id="telephone-response"
+              /><label for="">Telephone response</label><br />
+            </div>
+            <br />
+            <label for="message">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="8"
+              placeholder="Enter your message"
+            ></textarea
+            ><br />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+
+        <footer>
+          <p>Copyright 2023 | Ben Walker</p>
+        </footer>
+      </div>
+
+      <div class="nav_container">
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./topics.html">Topics</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
